@@ -1,0 +1,387 @@
+[
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.DanhmucController",
+    "Method": "Create",
+    "RelativePath": "api/Danhmuc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendWebBanLinhKien.Models.Danhmuc",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.DanhmucController",
+    "Method": "GetAll",
+    "RelativePath": "api/Danhmuc",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.DanhmucController",
+    "Method": "GetById",
+    "RelativePath": "api/Danhmuc",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.DanhmucController",
+    "Method": "Delete",
+    "RelativePath": "api/Danhmuc/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.DanhmucController",
+    "Method": "Edit",
+    "RelativePath": "api/Danhmuc/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendWebBanLinhKien.Models.Danhmuc",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.HoadonController",
+    "Method": "Create",
+    "RelativePath": "api/Hoadon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendWebBanLinhKien.Models.Hoadon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.HoadonController",
+    "Method": "GetAll",
+    "RelativePath": "api/Hoadon",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.HoadonController",
+    "Method": "GetById",
+    "RelativePath": "api/Hoadon",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.HoadonController",
+    "Method": "Delete",
+    "RelativePath": "api/Hoadon/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.HoadonController",
+    "Method": "Edit",
+    "RelativePath": "api/Hoadon/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendWebBanLinhKien.Models.Hoadon",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.NguoidungController",
+    "Method": "GetAll",
+    "RelativePath": "api/Nguoidung",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.NguoidungController",
+    "Method": "Create",
+    "RelativePath": "api/Nguoidung",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendWebBanLinhKien.Models.Nguoidung",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.NguoidungController",
+    "Method": "GetById",
+    "RelativePath": "api/Nguoidung/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.NguoidungController",
+    "Method": "Edit",
+    "RelativePath": "api/Nguoidung/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendWebBanLinhKien.Models.Nguoidung",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.NguoidungController",
+    "Method": "Delete",
+    "RelativePath": "api/Nguoidung/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.NguoidungController",
+    "Method": "Dangky",
+    "RelativePath": "api/Nguoidung/dangky",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dangky",
+        "Type": "BackendWebBanLinhKien.Hepler.dangky",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.NguoidungController",
+    "Method": "Login",
+    "RelativePath": "api/Nguoidung/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "BackendWebBanLinhKien.Hepler.dangnhap",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.SanphamController",
+    "Method": "Create",
+    "RelativePath": "api/Sanpham",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendWebBanLinhKien.Models.Sanpham",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.SanphamController",
+    "Method": "GetAll",
+    "RelativePath": "api/Sanpham",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.SanphamController",
+    "Method": "Delete",
+    "RelativePath": "api/Sanpham/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.SanphamController",
+    "Method": "Edit",
+    "RelativePath": "api/Sanpham/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendWebBanLinhKien.Models.Sanpham",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.SanphamController",
+    "Method": "GetById",
+    "RelativePath": "api/Sanpham/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.SanphamController",
+    "Method": "upHinh",
+    "RelativePath": "api/Sanpham/uploadImg",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendWebBanLinhKien.Controllers.NguoidungController",
+    "Method": "Thongtinsua",
+    "RelativePath": "thongtin/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackendWebBanLinhKien.Hepler.capnhattaikhoan",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
